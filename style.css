@@ -1,0 +1,63 @@
+body {
+    color:#1c615A;
+     /* changed color so that is is AAA complaiant */
+    background-color: #fcfcfc;
+   font-family: 'Nobile', "arial", "sans-serif";
+   /* Googled best font for elderly people and "nobile" came up alonf with "use sans-serif" so, did that */
+    font-size: 18px;
+    /* use the website provided to text accesibility for AAA compatibility and for the colors chosen 18px is the recomended size given that I have a smaller text later on that I made the minimum */
+}
+header{
+  color: #b00830;
+  /* changed color so that it is AAA comlplaiant */
+  font-family: 'Poiret One', cursive;
+  /* I only chose this font becasue I liked it better - not because it is more readable */
+  font-size: 40px;
+  /* howveer, I did increse its size to kind of off set the design choice */
+}
+hr {
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: #331e36;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #331e36;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+h2{
+  font-family: 'Gruppo', cursive;
+  font-size: 33px;
+  /* due to the weight of the font (plus for stylistic value) I increased the font size for readibility */
+}
+#about{
+  text-align: center;
+  /* second part of trying to get the donation tag line to be on its own unbroken line-I think this is easuer to see this way */
+}
+#donation {
+  color: #331e36;
+}
+h5{
+  text-decoration: line-through;
+  font-size: 14px;
+  /* 14 is the minimum recomended for this weight and color and background to be AAA complaiant */
+}
+address{
+  font-weight: bold;
+}
+h3{
+  text-decoration: underline;
+  /* wanted something that made the name clear/what you would click on-don't really want to hyperlink them and make them their own pages, but thats the idea behind this, is that they wouldbe clickable */
+}
+h4{
+  color: #b00830;
+  /* draws attention to the new price and also ties in the color of the main title */
+}
